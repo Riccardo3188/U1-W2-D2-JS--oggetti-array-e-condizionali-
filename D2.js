@@ -4,11 +4,15 @@
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 let numero1 = 10;
-let numero2 = 20;
-console.log(numero1, numero2);
+let numero2 = 10;
+// console.log(numero1, numero2);
 
 if (numero1 < numero2) {
   console.log("numero1 è minore di numero2");
+} else if (numero2 < numero1) {
+  console.log("numero2 è minore di numero1");
+} else {
+  console.log("numero1 è uguale a numero2");
 }
 
 /* ESERCIZIO 2
@@ -16,7 +20,10 @@ if (numero1 < numero2) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+let numero3 = 10;
+if (numero3 !== 5) {
+  console.log("not egual");
+}
 /* ESERCIZIO 3
   Scrivi un algoritmo che mostri "divisibile per 5" in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
