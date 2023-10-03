@@ -29,12 +29,28 @@ if (numero3 !== 5) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let numero4 = 20;
+if (numero4 % 5 === 0) {
+  console.log("divisibile per 5");
+}
 
 /* ESERCIZIO 4
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let numero5 = 18;
+let numero6 = 10;
+if (
+  numero5 === 8 ||
+  numero6 === 8 ||
+  numero5 + numero6 === 8 ||
+  numero5 + numero6 === 8 ||
+  numero5 - numero6 === 8 ||
+  numero6 - numero5 === 8
+) {
+  console.log("verificato");
+}
 
 /* ESERCIZIO 5
   Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
@@ -43,13 +59,30 @@ if (numero3 !== 5) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+let totaleCarrello = 70;
+let speseSpedizione = 10;
+let sommadapagare = totaleCarrello;
+if (totaleCarrello < 50) {
+  sommadapagare += speseSpedizione;
+}
+console.log("totale da pagare:", sommadapagare);
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+let totaleCarrello2 = 70;
+totaleCarrello2 = totaleCarrello2 * 0.8;
+let shippingCost2 = 20;
+let sommadapagare2 = totaleCarrello2;
+
+if (totaleCarrello2 < 50) {
+  sommadapagare2 += sommadapagare2;
+}
+
+console.log("Totale da pagare:", sommadapagare2);
 
 /* ESERCIZIO 7
   Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
@@ -58,6 +91,9 @@ if (numero3 !== 5) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let numero7 = 10;
+let numero8 = 15;
+let numero9 = 20;
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
