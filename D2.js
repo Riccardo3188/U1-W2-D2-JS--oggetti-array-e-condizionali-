@@ -77,6 +77,14 @@ if (numero1 < numero2) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let val = 7;
+if (val < 10) {
+  console.log("Meno di 10");
+} else if (val < 5) {
+  console.log("Meno di 5");
+} else {
+  console.log("Uguale a 10 o maggiore");
+}
 
 /* ESERCIZIO 11
   Fornito il seguente oggetto, scrivi del codice per aggiungere una proprietà "city", il cui valore sarà "Toronto".
@@ -107,6 +115,8 @@ const me = {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+const numeri = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+console.log(numeri);
 
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
