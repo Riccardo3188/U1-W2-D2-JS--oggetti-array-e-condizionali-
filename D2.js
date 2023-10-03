@@ -97,7 +97,7 @@ const me = {
 };
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+me.city = "Toronto";
 /* ESERCIZIO 12
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere la proprietà "lastName".
 */
@@ -123,3 +123,6 @@ console.log(numeri);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+console.log(numeri);
+numeri.pop(1, 2, 3, 4, 5, 6, 7, 8, 9);
+console.log(numeri);
